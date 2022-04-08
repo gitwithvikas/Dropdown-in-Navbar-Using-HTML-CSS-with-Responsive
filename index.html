@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coders</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1000px)" href="responsive.css">
+</head>
+
+<body>
+
+    <nav class="navbar" id="nav">
+        <div class="logo">
+            <h2>Coders</h2>
+        </div>
+        <ul>
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">Training</a>
+                <div class="sub-mode">
+                    <ul>
+                        <li><a href="">MODE</i></a>
+                        <li><a href="">ONLINE <i>&gt;</i></a>
+                            <div class="mode">
+                                <ul>
+                                    <li><a href="">Web Desgining</a></li>
+
+                                    <li><a href="">App Developing</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+
+
+
+                        <li><a href="">OFFLINE <i>&gt;</i></a>
+                            <div class="mode">
+                                <ul>
+                                    <li><a href="">Web Desgining</a></li>
+
+                                    <li><a href="">App Developing</a></li>
+
+                                </ul>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="">Services</a>
+                <div class="sub-service">
+                    <ul>
+                        <li><a href="">Internships</a></li>
+                        <li><a href="">Full Stack Developer <i>&gt;</i></a>
+                            <div class="inter-card">
+                                <ul>
+                                    <li><a href="">FrontEnd Developer</a></li>
+                                    <li><a href="">BackEnd Developer</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="">Android Developer <i>&gt;</i></a>
+                            <div class="inter-card">
+                                <ul>
+                                    <li><a href="">FrontEnd Developer</a></li>
+                                    <li><a href="">BackEnd Developer</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li><a href="">IOS Developer <i>&gt;</i></a>
+                            <div class="inter-card">
+                                <ul>
+                                    <li><a href="">FrontEnd Developer</a></li>
+                                    <li><a href="">BackEnd Developer</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li><a href="">Graphics Designer <i>&gt;</i></a>
+                            <div class="inter-card">
+                                <ul>
+                                    <li><a href="">FrontEnd Developer</a></li>
+                                    <li><a href="">BackEnd Developer</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+
+
+        </ul>
+        <div class="menu">
+            <a href="javascript:void(0)" class="nav-btn" onclick="myfunction()">&equiv;</a>
+        </div>
+    </nav>
+
+
+
+
+
+    <script>
+
+        function myfunction() {
+            var nav = document.getElementById('nav');
+
+            if (nav.className === 'navbar') {
+                nav.className += ' toggle';
+            }
+            else {
+                nav.className = 'navbar';
+            }
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
